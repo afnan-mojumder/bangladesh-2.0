@@ -1,0 +1,92 @@
+/* Font Styles */
+
+.fira-sans-normal {
+    font-family: "Fira Sans";
+    font-style: normal;
+    line-height: normal;
+}
+
+
+/* nav bar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+    align-items: center;
+}
+
+
+header>nav>h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header>nav>button {
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    gap: 40px;
+    color: #006A50;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* Shared Styles */
+
+.gray-01 {
+    color: rgba(14, 14, 14, 0.70);
+}
+
+.heading-color {
+    color: #0E0E0E;
+}
+
+.button-01 {
+    border-radius: 8px;
+    background: #006A50;
+    color: white;
+    border: none;
+}
+
+
+/* Banner Styles */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner {
+    display: flex;
+    border-radius: 24px;
+    background: #C6E4D6;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin: 20px 160px 80px;
+}
+
+header>.banner {
+    display: flex;
+    justify-content: center;
+}
+
+header>.banner-container>.banner>div>button {
+    padding: 17px 34px;
+    font-size: 18px;
+}
+
+.banner>div>h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner>div> h1{
+    font-size: 56px;
+    /* width: 622px; */
+    margin-right: 64px;
+}
