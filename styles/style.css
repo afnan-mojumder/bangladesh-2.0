@@ -4,6 +4,7 @@
     font-family: "Fira Sans";
     font-style: normal;
     line-height: normal;
+    background-color: #F1F1F3;;
 }
 
 
@@ -13,6 +14,7 @@
     justify-content: space-between;
     padding: 24px 160px;
     align-items: center;
+    
 }
 
 
@@ -38,6 +40,11 @@ header>nav>button {
 .gray-01 {
     color: rgba(14, 14, 14, 0.70);
 }
+
+.gray-02{
+    color:  rgba(14, 14, 14, 0.80);
+}
+
 
 .heading-color {
     color: #0E0E0E;
@@ -85,8 +92,32 @@ header>.banner-container>.banner>div>button {
     font-weight: 500;
 }
 
-.banner>div> h1{
+.banner>div>h1 {
     font-size: 56px;
     /* width: 622px; */
     margin-right: 64px;
+}
+
+
+/* pillars of bangladesh style */
+
+.pillars {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.pillar-title {
+    font-size: 40px;
+}
+
+.pillar {
+    margin: 80px 160px;
+}
+
+.pillar-box {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    padding: 24px;
 }
